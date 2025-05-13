@@ -1,0 +1,4 @@
+variar j desde 0 hasta 10 con paso 2 hacer
+  x <- j + 1
+  escribir x
+fin_variar

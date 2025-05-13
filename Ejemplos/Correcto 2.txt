@@ -1,0 +1,4 @@
+a <- 10
+variar j desde 1 hasta a con paso 2 hacer
+  escribir j
+fin_variar
