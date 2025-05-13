@@ -2,10 +2,20 @@
 
 ---
 
-Este proyecto es un **analizador léxico, sintáctico e intérprete básico** para un lenguaje personalizado orientado a juegos interactivos.  
-Está desarrollado en **JavaScript** utilizando **ANTLR4** y permite interpretar comandos como `mostrar`, `leer`, `si` y `saltar` entre escenas.
+Este proyecto es un **analizador léxico, sintáctico e intérprete básico** para un lenguaje personalizado con estructuras como `variar`, `asignación` y `escribir`.
 
----
+Está desarrollado en **JavaScript** utilizando **ANTLR4**, y permite traducir instrucciones escritas en este lenguaje a **JavaScript** y ejecutarlas.
+
+🧠 ¿Qué hace el intérprete?
+✅ Verifica errores léxicos y sintácticos.
+
+⚠️ Muestra advertencias si hay errores de tipeo en palabras clave (como varia en lugar de variar).
+
+🌳 Imprime el árbol de derivación.
+
+📝 Genera código equivalente en JavaScript.
+
+▶️ Ejecuta el código traducido directamente en consola.
 
 ## ⚙️ Requisitos
 
