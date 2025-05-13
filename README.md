@@ -7,6 +7,7 @@ Este proyecto es un **analizador léxico, sintáctico e intérprete básico** pa
 Está desarrollado en **JavaScript** utilizando **ANTLR4**, y permite traducir instrucciones escritas en este lenguaje a **JavaScript** y ejecutarlas.
 
 🧠 ¿Qué hace el intérprete?
+
 ✅ Verifica errores léxicos y sintácticos.
 
 ⚠️ Muestra advertencias si hay errores de tipeo en palabras clave (como varia en lugar de variar).
