@@ -1,46 +1,44 @@
-# 📘 Proyecto "Intérprete del Lenguaje Variar"
+📘 Proyecto "Intérprete del Lenguaje Variar"
+Este proyecto es un analizador léxico, sintáctico e intérprete básico para un lenguaje personalizado con estructuras como variar, asignacióny escribir.
 
----
+Está desarrollado en JavaScript utilizando ANTLR4 , y permite traducir instrucciones escritas en este lenguaje a JavaScript y ejecutarlas.
 
-Este proyecto es un **analizador léxico, sintáctico e intérprete básico** para un lenguaje personalizado orientado a juegos interactivos.  
-Está desarrollado en **JavaScript** utilizando **ANTLR4** y permite interpretar comandos como `mostrar`, `leer`, `si` y `saltar` entre escenas.
+🧠 ¿Qué hace el intérprete?
 
----
+✅ Verifica errores léxicos y sintácticos.
 
-## ⚙️ Requisitos
+⚠️Muestra advertencias si hay errores de tipo en palabras clave (como varia en lugar de variar).
 
-Antes de ejecutar el proyecto, asegurate de tener instalado:
+🌳Imprime el árbol de derivación.
 
-- Node.js  
-- Java (JDK)  
-- ANTLR4  
-- Extensión **ANTLR4 Grammar Syntax Support** en Visual Studio Code (para depurar y ver el árbol)  
+📝 Genera código equivalente en JavaScript.
 
----
+▶️Ejecuta el código traducido directamente en consola.
 
-## 📥 ¿Cómo preparar el proyecto?
+⚙️ Requisitos
+Antes de ejecutar el proyecto, asegúrese de tener instalado:
 
-1. Cloná el repositorio: 
+Node.js
+Java (JDK)
+ANTLR4
+Extensión ANTLR4 Grammar Syntax Support en Visual Studio Code (para depurar y ver el árbol)
+📥 ¿Cómo preparar el proyecto?
+Cloná el repositorio:
 
-2. Abrí una terminal en la carpeta del proyecto
-En VS Code: Terminal > New Terminal
+Abra una terminal en la carpeta del proyecto En VS Code: Terminal > New Terminal
 
-O usá el atajo: Ctrl + ñ
+O usa el atajo: Ctrl + ñ
 
-La terminal se abrirá directamente en la raíz del proyecto e instalá las dependencias con:
+La terminal se abrirá directamente en la raíz del proyecto e instalará las dependencias con:
 
-**npm install**
+instalación de npm
 
----
+▶️¿Cómo ejecutar el intérprete?
+Copia uno de los seis archivos que hay en la carpeta 'Ejemplos' y pegalo en input.txt. GRABAR GUARDAR (Ctrl + s)
+Ejecuta el analizador
+Al ejecutar este comando: node index.js
 
-## ▶️ ¿Cómo ejecutar el intérprete?
-
-3. Copiá uno de los seis archivos que hay en la carpeta 'Ejemplos' y pegalo en input.txt. RECORDÁ GUARDAR (Ctrl + s)
-4. Ejecutá el analizador
-
-Al ejecutar este comando: **node index.js**
-
-✅ Si no hay errores de sintaxis, verás un mensaje de entrada válida.
+✅ Si no hay errores de sintaxis, verás un mensaje de entrada válido.
 
 ❌ Si hay errores, se mostrarán en rojo con línea y columna exacta.
 
@@ -48,18 +46,16 @@ Al ejecutar este comando: **node index.js**
 
 📝 Se mostrará el código JavaScript generado a partir del código fuente.
 
-▶️ Se ejecutará el programa como un intérprete, mostrando los resultados en consola.
+▶️Se ejecutará el programa como un intérprete, mostrando los resultados en consola.
 
 🔎 Ver el árbol gráficamente (opcional)
 
-Presioná **F5** en VS Code o hacé clic en el botón Debug ANTLR4 Grammar (ícono de ▶️ con un bichito).
+Presione F5 en VS Code o haga clic en el botón Debug ANTLR4 Grammar (ícono de▶️con un bichito).
 
-Asegurate de haber abierto el archivo AnalizadorVariar.g4 y tener seleccionada la regla inicial (AnalizadorVariar) arriba a la izquierda.
-
----
+Asegúrese de haber abierto el archivo AnalizadorVariar.g4 y tener seleccionada la regla inicial (AnalizadorVariar) arriba a la izquierda.
 
 📊 Ver la tabla de tokens
 
-Comando: **node generarTabla.js**
+Comando: node generarTabla.js
 
 Este comando genera e imprime una tabla con los lexemas y tokens encontrados en el archivo input.txt.
