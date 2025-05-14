@@ -1,22 +1,15 @@
-📘 Proyecto "Intérprete del Lenguaje Variar"
-Este proyecto es un analizador léxico, sintáctico e intérprete básico para un lenguaje personalizado con estructuras como variar, asignacióny escribir.
+# 📘 Proyecto "Intérprete del Lenguaje Variar"
 
-Está desarrollado en JavaScript utilizando ANTLR4 , y permite traducir instrucciones escritas en este lenguaje a JavaScript y ejecutarlas.
+---
 
-🧠 ¿Qué hace el intérprete?
+Este proyecto es un **analizador léxico, sintáctico e intérprete básico** para un lenguaje personalizado orientado a juegos interactivos.  
+Está desarrollado en **JavaScript** utilizando **ANTLR4** y permite interpretar comandos como `mostrar`, `leer`, `si` y `saltar` entre escenas.
 
-✅ Verifica errores léxicos y sintácticos.
+---
 
-⚠️Muestra advertencias si hay errores de tipo en palabras clave (como varia en lugar de variar).
+## ⚙️ Requisitos
 
-🌳Imprime el árbol de derivación.
-
-📝 Genera código equivalente en JavaScript.
-
-▶️Ejecuta el código traducido directamente en consola.
-
-⚙️ Requisitos
-Antes de ejecutar el proyecto, asegúrese de tener instalado:
+Antes de ejecutar el proyecto, asegurate de tener instalado:
 
 Node.js
 Java (JDK)
